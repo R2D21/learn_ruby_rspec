@@ -7,9 +7,12 @@ def translate(string)
   voyelles.each_char do | objet |
     if (string[0] ==  objet)
         string_copy += "ay"
-  end
+        return (string_copy)
+    end
+  elsif ()
+
+    end
 end
-return (string_copy)
 end
 
 puts translate("apple")

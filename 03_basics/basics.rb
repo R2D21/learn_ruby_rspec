@@ -22,12 +22,9 @@ end
 
 def array_42(array)
   array.each do |objet|
-    puts objet
     if (objet.to_i == 42)
       return true
     end
   end
   return false
 end
-puts array_42([1, 2, 3, 4, 5, 6, 7 , 8, 9, 4, 21, 10.5])
-

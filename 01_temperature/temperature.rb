@@ -7,6 +7,3 @@ end
 def     ctof(valeur)
   return (valeur *  1.800 + 32.00)
 end
-
-puts ctof(37)
-
