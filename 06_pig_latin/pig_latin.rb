@@ -31,6 +31,3 @@ consonnes = "bcdfghjklmnpqrstvwxz"
     end
 end
 end
-
-puts translate("apple")
-puts translate("cherry")
