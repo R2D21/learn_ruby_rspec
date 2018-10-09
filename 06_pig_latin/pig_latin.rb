@@ -2,7 +2,7 @@
 
 def translate(string)
   voyelles = "aeiouy"
-consonnes = "bcdfghjklmnpqrstvwxz"
+  consonnes = "bcdfghjklmnpqrstvwxz"
   string_copy = string
 
   voyelles.each_char do | objet |
